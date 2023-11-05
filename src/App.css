@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+@import url('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
+
+* {
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: rgb(53, 0, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+
+.div-cotizador {
+    margin: auto;
+    max-width: 900px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-color: rgb(99, 99, 99);
+    box-shadow: 26px 28px 15px -8px rgba(255, 255, 255, 0.15);
+    border-radius: 0.7rem;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    color:rgb(53, 0, 103);
+}
+
+.formulario {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.precio-estimado {
+    color: rgb(53, 0, 103);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.ver-historial {
+    color: rgb(53, 0, 103);
+    font-size: large;
+    font-weight: 700;
+    margin: 0%;
+}
+
+label {
+    font-weight: 400;
+    color: black;
+}
+
+div.historial span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 70% !important;
+}
+
+.boton {
+    margin: 20px;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: rgb(53, 0, 103);
+}
+
+.div-historial {
+    align-items: center;
+    justify-content: baseline;
+    margin: auto;
+    max-width: 900px;
+    background-color:rgb(114, 48, 176);
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+}
